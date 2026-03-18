@@ -8,7 +8,7 @@ function App() {
     name: "Néstor Ledesma",
     role: "UX/UI Designer · Front-end Developer",
     description: "Diseñador UX/UI y Front-end con más de 10 años de experiencia creando productos digitales centrados en el usuario para marcas de alto impacto en sectores como medios, banca, consumo masivo y marketing digital. Especialista en arquitectura de información, wireframes, prototipado y maquetación responsive, con fuerte criterio visual y técnico para garantizar viabilidad, rendimiento y escalabilidad.",
-    imageUrl: "https://images.unsplash.com/photo-1681164314699-38fc76972dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB1eCUyMGRlc2lnbmVyJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzczODQ4MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    imageUrl: "/src/img/soylede.png",
     contact: {
       phone: "+57 313 300 7194",
       email: "nestor.ledezma1988@gmail.com",
@@ -60,31 +60,31 @@ function App() {
   const projects = [
     {
       id: 1,
-      name: "Portal RCN Televisión",
-      description: "Diseño y desarrollo de interfaces UX/UI para el portal de alto tráfico de RCN Televisión, optimizado para performance y SEO.",
-      technologies: ["React", "WordPress", "SEO", "UX/UI", "Responsive"],
-      url: "https://www.canalrcn.com"
+      name: "Polla Mundialista RCN Televisión",
+      description: "UX/UI de plataforma de predicciones deportivas para Mundial 2026, con enfoque en experiencia social, gamificación y aumento de engagement mediante rankings y grupos.",
+      technologies: ["Figma", "User Flows", "Design Systems", "UX/UI"],
+      url: "https://www.behance.net/gallery/246046665/Polla-Mundialista-RCN-UX-UI"
     },
     {
       id: 2,
-      name: "Sistema de Design System",
-      description: "Creación de un sistema de diseño escalable con componentes reutilizables y documentación completa para equipos de desarrollo.",
-      technologies: ["Design Systems", "UI Kits", "Figma", "React", "Storybook"],
-      url: "#"
+      name: "Landing RCN Radios Marcas",
+      description: "Creación de landing page para RCN Radios, integrando diseño visual atractivo con funcionalidad y usabilidad para promover las diferentes marcas de la emisora.",
+      technologies: ["Design Systems", "UI Kits", "Figma", "React", "tailwind CSS"],
+      url: "https://www.behance.net/gallery/246044955/RCN-Radio-Marcas-Landing-Page-UI-UX-Design-"
     },
     {
       id: 3,
-      name: "Campañas Banco Davivienda",
-      description: "Diseño y desarrollo de piezas digitales y landing pages para campañas publicitarias del Banco Davivienda.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Landing Pages", "UX/UI"],
+      name: "Media Kit RCN",
+      description: "Diseño y maquetación de media kit para RCN SITE, destacando métricas clave, formatos publicitarios y casos de éxito para atraer anunciantes y agencias de medios.",
+      technologies: ["WordPress", "Elementor", "JavaScript", "Landing Pages", "UX/UI"],
       url: "#"
     },
     {
       id: 4,
-      name: "Optimización Core Web Vitals",
-      description: "Proyecto enfocado en mejorar métricas de rendimiento y experiencia de usuario según los estándares de Google.",
-      technologies: ["Performance", "SEO", "Core Web Vitals", "Optimization"],
-      url: "#"
+      name: "Smoove",
+      description: "Smoove es un servicio premium de mudanzas en Melbourne enfocado en ofrecer experiencias sin estrés, personalizadas y sostenibles.",
+      technologies: ["Figma", "Design Systems", "Prototipado", "WordPress", "SEO"],
+      url: "https://www.behance.net/gallery/246048773/Smoove-es-un-servicio-premium-de-mudanzas"
     }
   ];
 

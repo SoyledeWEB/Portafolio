@@ -46,11 +46,3 @@ He trabajado en sectores como medios, banca, consumo masivo y marketing digital,
 
 ---
 
-## ⚡ Instalación
-
-Si deseas correr el proyecto localmente:
-
-```bash
-git clone https://github.com/tuusuario/portafolio.git
-cd portafolio
-open index.html
