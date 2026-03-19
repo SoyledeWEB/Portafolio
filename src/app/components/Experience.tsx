@@ -16,7 +16,7 @@ export function Experience({ experiences }: ExperienceProps) {
   return (
     <section className="w-full bg-white rounded-xl shadow-sm p-8 md:p-12">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl md:text-3xl mb-8 text-gray-900">Experiencia Laboral</h2>
+        <h2 className="text-2xl md:text-3xl mb-8 text-gray-900">Work Experience</h2>
         
         <div className="space-y-8">
           {experiences.map((exp) => (

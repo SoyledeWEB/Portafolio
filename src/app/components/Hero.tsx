@@ -31,20 +31,20 @@ export function Hero({ name, role, description, imageUrl, contact }: HeroProps) 
           {/* Content */}
           <div className="flex-1">
             <h1 className="text-3xl md:text-4xl mb-2 text-gray-900">{name}</h1>
-            <p className="text-lg md:text-xl text-[#E10600] mb-6">{role}</p>
+            <p className="text-lg md:text-xl text-[#000000] mb-6">{role}</p>
             
             {/* Contact Info */}
             <div className="flex flex-col gap-3 mb-6">
               <a 
                 href={`tel:${contact.phone}`}
-                className="flex items-center gap-2 text-gray-700 hover:text-[#E10600] transition-colors"
+                className="flex items-center gap-2 text-gray-700 hover:text-[#000000] transition-colors"
               >
                 <Phone className="w-4 h-4" />
                 <span className="text-sm md:text-base">{contact.phone}</span>
               </a>
               <a 
                 href={`mailto:${contact.email}`}
-                className="flex items-center gap-2 text-gray-700 hover:text-[#E10600] transition-colors"
+                className="flex items-center gap-2 text-gray-700 hover:text-[#000000] transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 <span className="text-sm md:text-base">{contact.email}</span>
@@ -53,7 +53,7 @@ export function Hero({ name, role, description, imageUrl, contact }: HeroProps) 
                 href={contact.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-700 hover:text-[#E10600] transition-colors"
+                className="flex items-center gap-2 text-gray-700 hover:text-[#000000] transition-colors"
               >
                 <Linkedin className="w-4 h-4" />
                 <span className="text-sm md:text-base">LinkedIn</span>

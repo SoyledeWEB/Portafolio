@@ -21,7 +21,7 @@ export function Skills({ categories }: SkillsProps) {
                 {category.skills.map((skill, skillIdx) => (
                   <span
                     key={skillIdx}
-                    className="inline-flex items-center px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-700 hover:bg-[#E10600] hover:text-white transition-colors cursor-default"
+                    className="inline-flex items-center px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-700 hover:bg-[#000000] hover:text-white transition-colors cursor-default"
                   >
                     {skill}
                   </span>
