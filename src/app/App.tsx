@@ -6,8 +6,8 @@ import { Experience } from './components/Experience';
 function App() {
   const personalInfo = {
     name: "Néstor Ledesma",
-    role: "UX/UI Designer · Front-end Developer",
-    description: "Diseñador UX/UI y Front-end con más de 10 años de experiencia creando productos digitales centrados en el usuario para marcas de alto impacto en sectores como medios, banca, consumo masivo y marketing digital. Especialista en arquitectura de información, wireframes, prototipado y maquetación responsive, con fuerte criterio visual y técnico para garantizar viabilidad, rendimiento y escalabilidad.",
+    role: "UX/UI Designer | Front-end Developer",
+    description: "UX/UI Designer and Front-end Developer with over 9 years of experience designing and building user-centered digital products. Strong background in wireframing, prototyping, responsive web design, and front-end development. Experienced in SEO optimization, performance improvement, and cross-functional collaboration with designers, developers, and stakeholders.",
     imageUrl: "/Portafolio/soylede.png",
     contact: {
       phone: "+57 313 300 7194",
@@ -61,29 +61,29 @@ function App() {
     {
       id: 1,
       name: "Polla Mundialista RCN Televisión",
-      description: "UX/UI de plataforma de predicciones deportivas para Mundial 2026, con enfoque en experiencia social, gamificación y aumento de engagement mediante rankings y grupos.",
+      description: "UX/UI of a sports prediction platform for the 2026 World Cup, focusing on social experience, gamification and increased engagement through rankings and groups.",
       technologies: ["Figma", "User Flows", "Design Systems", "UX/UI"],
       url: "https://www.behance.net/gallery/246046665/Polla-Mundialista-RCN-UX-UI"
     },
     {
       id: 2,
       name: "Landing RCN Radios Marcas",
-      description: "Creación de landing page para RCN Radios, integrando diseño visual atractivo con funcionalidad y usabilidad para promover las diferentes marcas de la emisora.",
+      description: "Creation of a landing page for RCN Radios, integrating an attractive visual design with functionality and usability to promote the different brands of the broadcaster.",
       technologies: ["Design Systems", "UI Kits", "Figma", "React", "tailwind CSS"],
       url: "https://www.behance.net/gallery/246044955/RCN-Radio-Marcas-Landing-Page-UI-UX-Design-"
     },
     {
       id: 3,
       name: "Media Kit RCN",
-      description: "Diseño y maquetación de media kit para RCN SITE, destacando métricas clave, formatos publicitarios y casos de éxito para atraer anunciantes y agencias de medios.",
+      description: "Design and layout of a media kit for RCN SITE, highlighting key metrics, advertising formats and success cases to attract advertisers and media agencies.",
       technologies: ["WordPress", "Elementor", "JavaScript", "Landing Pages", "UX/UI"],
       url: "#"
     },
     {
       id: 4,
       name: "Smoove",
-      description: "Smoove es un servicio premium de mudanzas en Melbourne enfocado en ofrecer experiencias sin estrés, personalizadas y sostenibles.",
-      technologies: ["Figma", "Design Systems", "Prototipado", "WordPress", "SEO"],
+      description: "Smoove is a premium moving service in Melbourne focused on offering stress-free, personalized and sustainable experiences.",
+      technologies: ["Figma", "Design Systems", "Prototyping", "WordPress", "SEO"],
       url: "https://www.behance.net/gallery/246048773/Smoove-es-un-servicio-premium-de-mudanzas"
     }
   ];
@@ -95,11 +95,11 @@ function App() {
       role: "Diseñador Web Senior · Front-end",
       period: "Oct 2018 – Actualidad",
       description: [
-        "Diseño y desarrollo de interfaces UX/UI para productos digitales de alto tráfico",
-        "Creación de wireframes, prototipos y maquetación responsive",
-        "Optimización de sitios para velocidad, escalabilidad y SEO",
-        "Garantía de viabilidad técnica entre diseño y desarrollo",
-        "Colaboración con equipos ágiles (Scrum), desarrolladores y QA"
+        "Design and development of UX/UI interfaces for high-traffic digital products",
+        "Creation of wireframes, prototypes and responsive layouts",
+        "Optimization of sites for speed, scalability and SEO",
+        "Guarantee of technical viability between design and development",
+        "Collaboration with agile teams (Scrum), developers and QA"
       ]
     },
     {
@@ -108,9 +108,9 @@ function App() {
       role: "Diseñador Web Senior",
       period: "Feb 2018 – Ago 2018",
       description: [
-        "Cliente principal: Banco Davivienda",
-        "Diseño y desarrollo de piezas digitales para campañas publicitarias",
-        "Mantenimiento y adaptación visual de activos digitales"
+        "Main Client: Banco Davivienda",
+        "Design and development of digital assets for advertising campaigns",
+        "Maintenance and visual adaptation of digital assets"
       ]
     },
     {
@@ -119,9 +119,9 @@ function App() {
       role: "Webmaster",
       period: "Feb 2018 – Ago 2018",
       description: [
-        "Diseño de sitios web, mailings, landings y piezas digitales",
-        "Maquetación web y adaptación de campañas digitales",
-        "Gestión de pauta: Google Ads, DBM y Facebook Ads"
+        "Design of websites, mailings, landings and digital pieces",
+        "Web layout and adaptation of digital campaigns",
+        "Management of ad placements: Google Ads, DBM and Facebook Ads"
       ]
     }
   ];
@@ -149,7 +149,7 @@ function App() {
 
         {/* Footer */}
         <footer className="text-center py-8 text-gray-600 text-sm">
-          <p>© 2025 Néstor Ledesma. Todos los derechos reservados.</p>
+          <p>© 2025 Néstor Ledesma. All rights reserved.</p>
         </footer>
       </div>
     </div>
