@@ -8,7 +8,7 @@ function App() {
     name: "Néstor Ledesma",
     role: "UX/UI Designer · Front-end Developer",
     description: "Diseñador UX/UI y Front-end con más de 10 años de experiencia creando productos digitales centrados en el usuario para marcas de alto impacto en sectores como medios, banca, consumo masivo y marketing digital. Especialista en arquitectura de información, wireframes, prototipado y maquetación responsive, con fuerte criterio visual y técnico para garantizar viabilidad, rendimiento y escalabilidad.",
-    imageUrl: "/src/img/soylede.png",
+    imageUrl: "/Portafolio/soylede.png",
     contact: {
       phone: "+57 313 300 7194",
       email: "nestor.ledezma1988@gmail.com",
